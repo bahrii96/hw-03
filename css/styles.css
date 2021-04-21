@@ -1,0 +1,259 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-bg-color: #ffffff;
+}
+
+body {
+  background-color: #ffffff;
+
+  color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  letter-spacing: 0.03em;
+}
+.container {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  outline: 2px solid tomato;
+}
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  border: 1px solid tomato;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #2196f3;
+  text-decoration: none;
+}
+.accent {
+  color: var(--primary-text-color);
+}
+ .nav  li{
+   margin-right: 50px;
+   background-color: tomato;
+  
+ }
+}
+.list .link {
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  
+   
+}
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+.button {
+  color: var(--primary-bg-color);
+  background: var(--accent-color);
+
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  padding: 10px 32px;
+  border-radius: 4px;
+  display: inline-block;
+}
+.filter {color: var(--primary-text-color);
+  background: rgba(245, 244, 250, 1);
+  border-radius: 4px;
+  padding: 6px 22px;
+  border: 1px solid transparent;
+
+}
+
+.filter:hover,
+.filter:focus {
+  color: var(--primary-bg-color);
+  background: var(--accent-color);
+  border: 1px solid transparent;
+}
+
+
+.hero {
+  text-align: center;
+}
+.hero .title {
+  margin-top: 0;
+font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-transform: uppercase;
+  margin-bottom: 40px;
+
+  background-color: #eb1313;
+}
+ 
+.features  li{
+  margin-left: 30px;
+  border: 2px solid tomato;
+}
+.features .text {
+  margin-bottom: 0;
+  margin-top: 10px;
+  color: var(--title-text-color);
+}
+ 
+.features .title {
+  margin-bottom: 0;
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+ .service li{
+   margin-right: 30px;
+   border: 2px solid tomato;
+ }
+.service .service-title {
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+.service .title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.team li{
+  margin-right: 30px;
+  margin-left: 0;
+   
+  border: 2px solid tomato ;
+}
+.team .title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.team .name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+margin-top: 30px;
+margin-bottom: 0;
+}
+
+.team.activity {
+  color: var(--title-text-color);
+
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.team .list{
+margin-top: 16px;
+margin-bottom: 0;
+}
+.clients .title {
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.15;
+  text-align: center;
+}
+.clients .link {
+margin: 0;
+}
+
+.portfolio .text {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1, 75;
+  color: #eb1313;
+  text-decoration: none;
+}
+.portfolio .title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+}
+.portfolio .service {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  color: #757575;
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #2f303a;
+}
+.footer .logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #2196f3;
+  text-decoration: none;
+}
+.footer .accent {
+  color: var(--primary-bg-color);
+}
+
+.footer .text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--primary-bg-color);
+}
+
+.footer .link {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer .title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--primary-bg-color);
+}
+.footer .button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+}
