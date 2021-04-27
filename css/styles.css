@@ -97,6 +97,7 @@ body {
   padding: 6px 22px;
   border: 1px solid transparent;
   align-self: center;
+  text-transform: capitalize;
 }
 .filter + .filter {
   margin-left: 8px;
@@ -178,9 +179,9 @@ body {
   line-height: 1.16;
   text-align: center;
 }
-.service li {
-  margin-left: 0;
-  margin-right: 30px;
+.service li + li {
+  margin-left: 30px;
+  margin-right: 0;
 }
 
 .service .title {
@@ -192,14 +193,18 @@ body {
   text-transform: uppercase;
   text-align: center;
 }
-.team .team-item {
-  margin-right: 30px;
+
+.team {
+  background-color: rgba(245, 244, 250, 1);
+  width: 1700px;
+  margin: 0 auto;
 }
 
 .team .social-list {
   list-style: none;
   display: flex;
-  margin-right: 10px;
+  justify-content: center;
+  padding: 0;
 }
 .team .title {
   font-weight: bold;
@@ -238,6 +243,13 @@ body {
   margin-top: 16px;
   margin-bottom: 0;
 }
+.team .team-item + .team-item {
+  padding: 0;
+  margin-left: 30px;
+}
+.team .social-list li + li {
+  margin-left: 10px;
+}
 .clients .clients-con {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -253,8 +265,8 @@ body {
 .clients .link {
   margin: 0;
 }
-.clients li {
-  margin-right: 30px;
+.clients li + li {
+  margin-left: 30px;
 }
 .logo-contacts {
   margin-top: 60px;
@@ -274,6 +286,11 @@ body {
 
   margin-right: 0;
   display: flex;
+}
+.footer {
+  background-color: #2f303a;
+  width: 1700px;
+  margin: 0 auto;
 }
 .container-footer {
   width: 1200px;
@@ -305,14 +322,15 @@ body {
   margin-top: 20px;
   margin-bottom: 0;
 }
-
+.contacts-footer li {
+  margin-top: 9px;
+}
 .link-footer {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
-  margin-top: 9px;
 }
 .contacts-footer {
   list-style: none;
@@ -370,18 +388,23 @@ body {
   margin-right: 30px;
   margin-left: 0;
 }
+.link-portfolio {
+  text-decoration: none;
+}
 .text-portfolio {
   font-weight: normal;
   font-size: 18px;
   line-height: 1.55;
   margin-left: 0;
   margin-right: 0;
+  color: #757575;
 }
 .title-portfolio {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  color: var(--primary-text-color);
 
   margin-left: 0;
   margin-right: 0;
