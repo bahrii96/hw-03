@@ -54,6 +54,7 @@ body {
 }
 .header .list {
   align-items: center;
+  text-transform: capitalize;
 }
 
 .list .link {
