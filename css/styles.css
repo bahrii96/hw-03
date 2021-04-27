@@ -95,6 +95,13 @@ body {
   background: rgba(245, 244, 250, 1);
   border-radius: 4px;
   padding: 6px 22px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  text-align: center;
+
   border: 1px solid transparent;
   align-self: center;
   text-transform: capitalize;
@@ -196,7 +203,7 @@ body {
 
 .team {
   background-color: rgba(245, 244, 250, 1);
-  width: 1700px;
+  max-width: 1700px;
   margin: 0 auto;
 }
 
@@ -289,7 +296,7 @@ body {
 }
 .footer {
   background-color: #2f303a;
-  width: 1700px;
+  max-width: 1700px;
   margin: 0 auto;
 }
 .container-footer {
